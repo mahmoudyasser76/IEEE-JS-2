@@ -1,0 +1,50 @@
+1- Primitive type: the basic data tipes like string, number or boolean. Stored in Stack and the value can be directly copied.
+
+- Reference type: the value is stored as a reference using pointers in the memory, it can't be directly copied as when you copy it you copy the refrence not the actual value.
+
+
+2- Function declaration: it's a Function with the function keyword followed by its name, hosisting means it can be defined before its decleration,
+ex: 
+add(4,5);
+
+function add(x, y){
+    console.log(x + y);
+}
+
+- Function expression: assign a function to a variable, only the variable declaration is hoisted, not the function declaration.
+ex:
+add(4,5); --> not a function "error"
+
+const add = function(x, y){
+    console.log(x + y);
+}
+
+
+3- Pure Function --> is a deterministic function, the output is always the same given the same input and dosen't depend on any other variables.
+
+
+4-
+forEach --> Destructive
+map --> Non-Destructive
+filter --> Non-Destructive
+reduce --> Non-Destructive
+slice --> Non- Destructive
+splice --> Destructive
+sort --> Destructive
+concat --> Non-Destructive
+fill --> Destructive
+includes --> Non-Destructive
+join --> Non-Destructive
+reverse --> Destructive
+push --> Destructive
+pop --> Destructive
+unshift --> Destructive
+shift --> Destructive
+indexof --> Non-Destructive
+every --> Non-Destructive
+some --> Non-Destructive
+find --> Non-Destructive
+findindex --> Non-Destructive
+from --> Non-Destructive
+isArray --> Non-Destructive
+flat --> Non-Destructive
